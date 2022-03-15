@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link href="css/style.css" rel="stylesheet">
+
+
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    fieldset {
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="https://ifrs.edu.br/"><img src="ifrs.png" alt="logo_ifrs"></a>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <caption><strong>Lucro por mês</strong></caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Fruta</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Banana</td>
+                    <td>Maça</td>
+                </tr>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <form>
+            <fieldset>
+                <label for="text">Nome: </label>
+                <input type="text" id="text">
+            </fieldset>
+
+            <fieldset>
+                <label for="date">Data nascimento: </label>
+                <input type="date" id="date">
+            </fieldset>
+
+            <fieldset>
+                <legend>Selecione as tecnologias você conhece:</legend>
+
+                <label for="checkbox1">Java</label>
+                <input type="checkbox" id="checkbox1"><br>
+
+                <label for="checkbox2">PHP</label>
+                <input type="checkbox" id="checkbox2"><br>
+
+                <label for="checkbox3">Css</label>
+                <input type="checkbox" id="checkbox3"><br>
+
+                <label for="checkbox4">jQuery</label>
+                <input type="checkbox" id="checkbox4"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Casado?</legend>
+
+                <input type="radio" id="radio1">
+                <label for="radio1">Sim</label>
+
+                <input type="radio" id="radio2">
+                <label for="radio2">Não</label>
+            </fieldset>
+
+            <fieldset>
+                <label for="color">Escolha a sua cor favorita: </label>
+                <input type="color" id="color">
+            </fieldset>
+        </form>
+
+        <figure>
+            <img src="img/hand.png" alt="hand" width="50" height="50">
+            <figcaption>Paz e amor</figcaption>
+        </figure>
+
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
